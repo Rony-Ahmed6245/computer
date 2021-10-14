@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 234, 234);
+  
 }
 
 *{
@@ -22,7 +23,7 @@ html{
 
 #header{
  height: 100vh;
- background-image:url(images/background.png);
+ background-image:url(images/glider-1480286.jpg);
  background-position: center;
  background-size: cover;
 }
