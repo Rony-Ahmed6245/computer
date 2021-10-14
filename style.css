@@ -552,14 +552,15 @@ nav ul li a{
     border-radius: 50px;
     padding: 5px;
     transition: .5s;
-    box-shadow: inset 1px 1px 4px rgb(219, 27, 91);
+    box-shadow: inset 1px 1px 4px rgb(60, 169, 241);
+    
 }
 .social-icons img:hover{
     display: block;
     width: 30px;
     margin: 0 auto 20px;
     cursor: pointer;
-    box-shadow: inset 1px 1px 4px rgb(60, 169, 241);
+    box-shadow: inset 1px 1px 4px rgb(219, 27, 91);
 }
 
 
