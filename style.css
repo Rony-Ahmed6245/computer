@@ -171,9 +171,11 @@ p{
     letter-spacing:2px;
     right: -250px;;
     top: 0;
-    background-color: rgb(230, 36, 143);
+    background-color: rgb(245, 104, 158);
     z-index: 2;
     transition: .5s;
+    border-left: 2px solid rgb(9, 138, 161);
+    border-radius: 2px;
 }
 
 nav ul li{
@@ -247,6 +249,7 @@ nav ul li a{
 #features{
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 .feature-row{
   
@@ -256,6 +259,21 @@ nav ul li a{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+}
+.unkown{
+    color: rgb(1, 183, 255);
+    font-size: small;
+}
+.member{
+    overflow: auto;
+    border-radius: 35px 0px 35px 0px  !important;
+    height: 250px;
+    box-shadow: 5px 5px 30px 1px rgb(187, 187, 187);
+    margin-bottom: 30px;
+    border-left: 10px solid rgb(233, 100, 67);
+    border-right: 10px solid rgb(67, 172, 233);
+  
 }
 .feature-col{ 
     border-radius: 3px;
