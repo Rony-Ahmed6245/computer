@@ -23,7 +23,7 @@ html{
 
 #header{
  height: 100vh;
- background-image:url(images/glider-1480286.jpg);
+ background-image:url(images/background.png);
  background-position: center;
  background-size: cover;
 }
@@ -270,19 +270,54 @@ nav ul li a{
     font-size: small;
 }
 .member{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     overflow: auto;
-    border-radius: 0px 35px 35px 0px  !important;
-    height: 270px;
+    border-radius: 0px 15px 15px 0px  !important;
+    height: 330px;
     box-shadow: 15px 15px 50px  rgb(238, 182, 196);
     margin-bottom: 30px;
     
     border-left: 10px solid ;
-    border-image:linear-gradient(180deg, rgb(211, 112, 0) ,rgb(0, 255, 0)) ;
+    border-image:linear-gradient(180deg,rgb(39, 207, 157),rgb(207, 129, 39),rgb(207, 39, 61), rgb(207, 39, 171) ,rgb(56, 154, 199)) ;
     border-image-slice: 1;
   
 }
+.visit-btn{
 
+    background-color: rgb(255, 255, 255);
+    border:none;
+    color: rgb(219, 27, 91);
+    padding: 8px 80px;
+    box-shadow: 5px 5px  15px rgb(189, 189, 189);
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: .5s;
+}
+.visit-btn:hover{
+
+    background-color: rgb(224, 88, 179);
+    border:none;
+    color: rgb(255, 255, 255);
+    padding: 8px 80px;
+    box-shadow: 5px 5px  15px rgb(189, 189, 189);
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: medium;
+    
+}
+.visit-btn:active{
+
+    background-color: rgb(88, 147, 224);
+    border:none;
+    color: rgb(255, 255, 255);
+    padding: 8px 80px;
+    box-shadow: 5px 5px  15px rgb(189, 189, 189);
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: medium;
+    
+}
 .feature-col{ 
     border-radius: 3px;
     padding: 10px;
